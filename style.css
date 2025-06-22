@@ -1,0 +1,229 @@
+body{
+    background-color: rgb(73, 110, 114);
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(1, 1, 1);
+    height: 4rem;
+}
+
+.nav .left{
+    display: flex;
+    flex-direction: row;
+    
+}
+.nav .left h2{
+    margin-left: 0.5rem;
+    margin-top: 0.7rem;
+    color: white;
+}
+
+.nav .left h2:hover{
+    color: rgb(212, 147, 158);
+}
+.nav .left h6{
+    margin-left: -10rem;
+    margin-top: 2.5rem;
+    color: rgb(136, 198, 36);
+}
+
+.nav .left img{
+    margin-left: 3rem;
+    margin-top: 1rem;
+}
+
+.nav .right{
+    padding-top: 1.2rem;
+    margin-right: 3rem;
+}
+.nav .right a:hover{
+ color: greenyellow;
+}
+.nav .right a{ 
+    margin: 1rem;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+.btn{
+    color: white;
+    background-color: rgb(15, 15, 138);
+    border-radius: 20%;
+    padding: 0.2rem;
+    height: 2rem;
+    width: 6rem;
+    font-weight: bold;
+}
+
+.btn:hover{
+    background-color: greenyellow;
+    color: black;
+    cursor: pointer;
+}
+
+
+.intro{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+    margin-right: 6rem;
+}
+.intro h1{
+    margin-top: 4rem;
+    font-weight: xx-large;
+    margin-left: 3rem;
+    font-size: 11rem;
+    color: rgb(215, 222, 215);
+    text-align: left;
+}
+
+.intro h1 span{
+    margin-left: 4rem;
+     background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+     background-clip: padding-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+section .about{
+    margin-top: 14rem;
+}
+
+section .about h2{
+    margin-left: 13rem;
+    color: beige;
+}
+
+section .about p{
+    padding: 2rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    text-align: justify;
+    color: white;
+    line-height: 1.8rem;   
+}
+
+
+.custom-line{
+    margin: 3rem;
+    margin-right: 35rem;
+}
+
+.custom-line1{
+    margin: -9rem;
+    margin-right: 40rem;
+    margin-left: 3rem;
+}
+
+.social-media{
+    margin-top: 2rem;
+    margin-left: 20rem;
+    
+}
+
+.btn-hiring{
+   cursor: pointer;
+    width: 18rem;
+    height: 3rem;
+    background-color: azure;
+    color: black;
+   font-weight: bold;
+   margin-left: 40rem;
+}
+
+.btn-hiring:hover{
+background-color: rgb(172, 172, 109);
+color: blue;
+
+}
+
+.projects{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1rem;
+    justify-content: center;
+    text-align: center;
+    margin-left: 30rem;
+    margin-right: 30rem;
+}
+
+.projects h2{
+    background-color: antiquewhite;
+    width: 17rem;
+    height: 3rem;
+    padding-top: 1rem;
+}
+
+.custom-line2{
+    margin: 3rem;
+
+}
+
+section h1{
+    text-align: center;
+    font-size: xx-large;
+}
+
+.my-skills{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin-left: 25rem;
+    margin-right: 20rem;
+ 
+}
+
+.my-skills h2{
+ background-color: rgb(101, 93, 81);
+ width: 8rem;
+ height: 3rem;
+ padding-top: 1rem;
+ text-align: center;
+ color: beige;
+
+}
+
+.contact-icon{
+    display: flex;
+    flex-direction: row;
+    gap: 12rem;
+    justify-content: center;
+    color: white;
+    font-size: xx-large;
+
+}
+
+.contact-details{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    gap: 5rem;
+   justify-content: center;
+   
+
+}
+
+.reach-me{
+    text-align: center;
+}
+
+.reach-me input{
+   width: 20rem;
+   height: 2rem;
+   margin: 1rem;
+
+}
+
+
+
+/* ________________________________________________________________________ */
+
+
+@media(max-width: 1025px){
+    body{
+        width: 1500px;
+    }
+}
